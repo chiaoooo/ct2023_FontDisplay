@@ -26,10 +26,10 @@ function buildUI() {
         var nameText = document.createElement("div");
         nameText.className = "nameRect";
         nameText.appendChild(document.createTextNode(`◆${studentName} (${studentId})`));
-        textContent.style.color = "#EEEEEE";
+        textContent.style.color = "#000000";
         if (githubName != "") {
             var link = document.createElement("a");
-            link.style.color = "#00FFFF";
+            link.style.color = "#EA7500";
             link.appendChild(document.createTextNode("※ " + githubName));
             link.href = githubUrl;
             textContent.appendChild(link);
